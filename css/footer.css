@@ -1,0 +1,19 @@
+footer{
+    color: #d8d8d8;
+    width:100%;
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+footer:hover{
+    color: #ffffff;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
+}
+footer span{
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+

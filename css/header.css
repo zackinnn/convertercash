@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+    background-color: green;
+    padding: 20px;
+}
+
+header h1{
+    color: #d6d6d6;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+header h1:hover{
+    color: #fff;
+    box-shadow: 2px 2px 3px 3px #ffffff;
+    transition: 0.3s ease-in-out;
+}
+@media(max-width:300px){
+    header h1:hover{
+        width: 100%;
+        color: #d6d6d6;
+        font-size: 3em;
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        cursor: pointer;
+    }
+}
